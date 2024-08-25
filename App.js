@@ -5,14 +5,21 @@
     </div>
 </div> */}
 
+react
+const headingcomp = (
+     <h1>
+        Namaste React from Func Component
+    </h1>
+)
+   
 
+const heading3 = () => <h1>Namaste React from Func Component</h1>
 
-
-const heading = React.createElement("div",
-    { id: "parent" },
-    React.createElement("div", { id: "child" },
-        [React.createElement("h1", {}, "I AM from H1 Tag"), React.createElement("h2", {}, "I AM from H2 Tag")]
-) );
+// const heading = React.createElement("div",
+//     { id: "parent" },
+//     React.createElement("div", { id: "child" },
+//         [React.createElement("h1", {}, "I AM from H1 Tag"), React.createElement("h2", {}, "I AM from H2 Tag")]
+// ) );
 
        const root = ReactDOM.createRoot(document.getElementById("root"));
 
